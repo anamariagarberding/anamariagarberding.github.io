@@ -1,0 +1,127 @@
+* {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    width: 1250px;
+    font-family: Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0 auto;
+}
+
+nav {
+    background: #d8a7a0;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+li {
+    display: inline;
+    padding: 5px;
+}
+
+section {
+    overflow: auto;
+    height: 100%;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+header {
+    background: #0d3b17; 
+    color: white;
+    padding: 10px; 
+    text-align: center;
+    font-size: 20px; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+article {
+    background: #d8a7a0;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 375px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.mart {
+    background-color: #0d3b17;
+    width: 375px;
+    height: 315px;
+    align-content: center;
+}
+
+.unique-page {
+    background-color: #0d3b17;
+    width: 375px;
+    height: 315px;
+    align-content: center;
+
+}
+
+.unique-page {
+    color: white;
+}
+
+.background-page {
+    background-color: #0d3b17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    color: white;
+}
+
+.background-page article {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.experiences-page article {
+    background-color: #d8a7a0;
+    color: white;
+    align-content: center;
+}
+
+.goals-page1 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: white;
+}
+
+.goals-page1 li {
+    display: list-item;
+    text-align: left;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.goals-page1 b {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0d3b17;
+    color: white;
+    margin: 10px;
+    clear: both;
+}
